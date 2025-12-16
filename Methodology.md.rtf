@@ -1,0 +1,33 @@
+## Methodology 
+
+ ## Data Sources 
+
+- I got the superbowl dataset from a user on GitHub named TidyTuesday and downloaded it on my jupiter notebook. 
+
+- The dataset itself has 240+ ads from 2000-2020 and also include the correct information of the ads and the stats of those ads on youtube. 
+
+- URL: https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-03-02
+
+- Columns include: brand name, year, YouTube video ID, view count, like count, dislike count, comment count,  and more. 
+
+- One of the main issues with the data set was that some ads had missing views counts and like counts aswell. 
+
+- I had to replace the missing numbers with 0 so I could write code to do calculations.  
+
+- No data type conversions were needed since pandas loaded everything correctly.  
+
+
+## Assumptions 
+
+- I assumed that when view counts or like counts were missing, it meant the video was no longer available on YouTube or the data wasn't collected, rather than the video actually having zero views 
+
+- I also assumed the year column represents the year the SuperBowl aired, not when the video was uploaded to YouTube 
+
+
+## Limitations 
+
+- I would say my one of my biggest limitations at first was to learn how to code dataplots. I used youtube videos and other sources to learn how to code them. 
+
+- Not every SuperBowl ad from 2000-2020 is available on YouTube. The dataset only includes ads that were posted online, which creates a bias toward ads that brands wanted to share or that became popular enough to be saved. 
+
+- YouTube became more popular over time. Ads from 2000-2005 might have fewer views not because they were bad ads, but because fewer people were using YouTube back then}
